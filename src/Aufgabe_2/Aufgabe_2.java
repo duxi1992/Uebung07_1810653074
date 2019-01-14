@@ -16,6 +16,10 @@ public class Aufgabe_2 {
 
 
                 String a = showInputDialog("Bitte geben sie ein Wort ein");
+
+                // Den Inhalt von Strings könnte man auch mit equals überprüfen aber da ist mir nichts mit dem integer
+                // Wert und der NumberFormatException eingefallen, deshalb diese Lösung
+
                 int b = Integer.parseInt(a);
 
                 System.err.println("Zahlen sind ungültige Werte");
@@ -31,3 +35,4 @@ public class Aufgabe_2 {
         }
     }
 
+            // ich hab die Aufgabe so verstanden, bin aber nicht sicher ob das richtig ist.

@@ -16,8 +16,11 @@ public static void main (String [] args) {
 
         Pattern pattern = Pattern.compile("[\\w|-]+@\\w[\\w|-]*\\.[a-z]{2,3}");
         Matcher m = pattern.matcher(email);
+            // prüft email auf Validität
 
         if (!m.find()) {
+
+            // vorgebebner Konstruktor
 
             throw new eigeneException();
 
